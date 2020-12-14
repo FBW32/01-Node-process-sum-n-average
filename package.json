@@ -1,0 +1,20 @@
+{
+  "name": "01-node-process-sum-n-average",
+  "version": "1.0.0",
+  "description": "01-Node-process-sum-n-average",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBW32/01-Node-process-sum-n-average.git"
+  },
+  "author": "ben Goldschmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBW32/01-Node-process-sum-n-average/issues"
+  },
+  "homepage": "https://github.com/FBW32/01-Node-process-sum-n-average#readme"
+}
