@@ -3,22 +3,26 @@ const { sum, avg, oops, wrong, med } = require("./calculation")
 // console.log(process.argv)
 
 const args = process.argv.slice(2)
+const argsArr = (args.slice(1)).map((i) => Number(i))
+
+console.log("Original array --> ", args)
+console.log("To Number array --> ", argsArr)
 
 if (args[0] === "sum") {
     // console.log((args.slice(1)))
     // console.log(
     //     (args.slice(1)).map((i) => Number(i))
     // )
-    sum((args.slice(1)).map((i) => Number(i)))
+    sum(argsArr)
 
 } else if (args[0] === "avg") {
-    avg((args.slice(1)).map((i) => Number(i)))
+    avg(argsArr)
 
 } else if (args[0] === "oops") {
     oops()
 
 } else if (args[0] === "med") {
-    med((args.slice(1)).map((i) => Number(i)))
+    med(argsArr)
 
 }
 
